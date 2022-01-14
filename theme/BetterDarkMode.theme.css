@@ -13,7 +13,7 @@
   --betterdarkmode-sec: #f9f9f9;
   --betterdarkmode-links: #ffffff;
   --betterdarkmode-mention-button: #202020;
-  --betterdarkmode-home-icon: url(https://i.pinimg.com/originals/05/10/f4/0510f4e596283c0d961e4338565a93f3.gif);
+  --betterdarkmode-home-icon: url(https://raw.githubusercontent.com/Devologger/betterdarkmode/main/theme/logo.gif);
 }
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
 .theme-dark .changeDetails-1kMZqI,
@@ -34,9 +34,15 @@
 .medium-2NClDM .input-2m5SfJ,
 .medium-2NClDM .input-2m5SfJ::placeholder,
 .medium-2NClDM .tag-Pxnlt9,
-.medium-2NClDM .tag-Pxnlt9::placeholder {
+.medium-2NClDM .tag-Pxnlt9::placeholder, {
   background-color: var(--betterdarkmode-bg2);
   color: #d3d3d3;
+}
+.markup-eYLPri{
+  color: rgb(233, 233, 233);
+}
+.form-3gdLxP .channelTextArea-1FufC0 .textArea-2CLwUE .placeholder-1_mJY1{
+  color: rgb(105, 105, 105) !important;
 }
 .canvas-2-hC7a,
 .card-2EUiNF,
@@ -48,7 +54,8 @@
 .settingCard-xZSDjS,
 .settingCard-xZSDjS.active-3EK-ed,
 .theme-dark .tooltipPrimary-3qLMbS,
-.theme-light .tooltipPrimary-3qLMbS {
+.theme-light .tooltipPrimary-3qLMbS,
+.noiseCancellationPopout-2-e5Xz {
   background-color: var(--betterdarkmode-bg2);
 }
 .popout-1KHNAq,
@@ -84,7 +91,8 @@ main.chatContent-3KubbW,
   background-color: var(--betterdarkmode-bg);
 }
 .container-2O1UgZ,
-.container-ZMc96U.themed-Hp1KC_ {
+.container-ZMc96U.themed-Hp1KC_,
+.footer-3naVBw {
   background: var(--betterdarkmode-bg);
 }
 .activityPanel-9icbyU {
@@ -962,7 +970,7 @@ button[aria-label="Send a gift"] {
 }
 .input-2m5SfJ,
 .medium-2NClDM.iconLayout-3Bjizv,
-.noiseCancellationPopout-2-e5Xz {
+.noiseCancellationPopout-2-e5Xz, {
   background-color: var(--betterdarkmode-bg2);
 }
 .icon-3CDcPB.visible-CwPfRb {
@@ -980,7 +988,9 @@ button[aria-label="Send a gift"] {
 }
 .actionButton-3-B2x-,
 .members-3WRCEx,
-.members-3WRCEx > div {
+.members-3WRCEx > div,
+.container-2c4_8A,
+.submitContainer-1DHMA0 {
   background-color: var(--betterdarkmode-bg);
 }
 .attachButtonPlus-3IYelE {
@@ -988,8 +998,4 @@ button[aria-label="Send a gift"] {
 }
 ::-webkit-scrollbar-thumb {
   background-color: var(--betterdarkmode-sec) !important;
-}
-::selection {
-  background-color: var(--betterdarkmode-bg);
-  color: var(--betterdarkmode-links);
 }
