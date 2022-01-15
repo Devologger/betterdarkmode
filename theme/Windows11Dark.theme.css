@@ -116,7 +116,8 @@ input.input-2m5SfJ {
 main.chatContent-3KubbW,
 .upsell-3B1lnN,
 .childWrapper-1j_1ub,
-.wrapper-3HVHpV{
+.wrapper-3HVHpV,
+.guildSidebar-UHnQqs{
   background-color: var(--win10darkmode-bg);
 }
 .container-2O1UgZ,
@@ -138,7 +139,7 @@ main.chatContent-3KubbW,
 
 .form-3gdLxP,
 .panel-2ZFCRb.activityPanel-9icbyU,
-.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN {
+.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN, .wrapper-1w686E, .theme-dark .navigationBar-3r0IQK {
   background-color: var(--win10darkmode-bg);
 }
 
@@ -565,7 +566,7 @@ button[aria-label="Send a gift"] {
 .colorStandard-21JIj7 {
   color: #000;
 }
-.wrapper-1cBijl {
+.wrapper-1cBijl, .formFieldWrapper-2LV3S6, .settingsFormFieldWrapper-U99c9i {
   background-color: var(--win10darkmode-bg2);
 }
 .addFriendInput-1Ta-rO::placeholder,
@@ -607,10 +608,10 @@ button[aria-label="Send a gift"] {
 .label-2wRs_g {
   color: var(--win10darkmode-sec);
 }
-.quickswitcher-pKcM9U {
+.quickswitcher-pKcM9U  {
   background-color: var(--win10darkmode-bg);
 }
-.input-3r5zZY, .wrapper-2SplAX {
+.input-3r5zZY, .wrapper-2SplAX, .perksTable-2Hjc0m, .planCard-3heGy1, .notice-1x8lm- {
   background-color: var(--win10darkmode-bg2);
 }
 .header-1ZpMzy,
@@ -624,11 +625,11 @@ button[aria-label="Send a gift"] {
 .theme-dark .wrapper-1ZcZW- {
   background-color: transparent;
 }
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo{
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo, .button-1mXrI{
   background-color: var(--win10darkmode-unread);
   color: #000
 }
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover{
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover, .button-1mXrIh:hover{
   background-color: var(--win10darkmode-buttonhover);
   color: #000
 }
@@ -899,7 +900,7 @@ button[aria-label="Send a gift"] {
   background-color: var(--win10darkmode-bg2);;
 }
 .acronym-2zrAHN {
-  background-color: var(--win10darkmode-bg);
+  background-color: var(--win10darkmode-bg2);
 }
 .expandedFolderBackground-1cujaW, .preview-rua1rr, .theme-dark .bar-1Bhnl9 {
   background-color: var(--win10darkmode-bg2);
@@ -990,7 +991,7 @@ button[aria-label="Send a gift"] {
 .container-3zZkKh {
   background-color: var(--win10darkmode-bg2);
 }
-.selectedProgressBar-11z5d9, .lookFilled-yCfaCM.colorBrand-I6CyqQ, .barFill-2Bh7CX{
+.avatarUploaderInner-yEhTv5,.selectedProgressBar-11z5d9, .lookFilled-yCfaCM.colorBrand-I6CyqQ, .barFill-2Bh7CX, .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled{
   background-color: var(--win10darkmode-unread);
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ{
@@ -998,6 +999,13 @@ button[aria-label="Send a gift"] {
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover{
   background-color: var(--win10darkmode-buttonhover);
+}
+.addFriendInputWrapper-kkoSV9{
+  background-color: var(--win10darkmode-hoveronselection);
+  border-color: var(--win10darkmode-textareaborder);
+}
+.addFriendInputWrapper-kkoSV9:hover{
+  background-color: var(--win10darkmode-hover);
 }
 .activityPanel-9icbyU,
 .container-YkUktl,
