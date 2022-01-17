@@ -55,6 +55,17 @@
 .expandedFolderIconWrapper-3RwQpD > svg > path{
   fill:var(--FluidUI-unread);
 }
+.attachment-1PZZB2{
+	background-color: var(--fluidUI-secondary);
+	border-color: var(--FluidUI-textareaborder);
+
+}
+svg.downloadButton-2HLFWN{
+  color: var(--FluidUI-unread);
+}
+svg.downloadButton-2HLFWN:hover{
+  color: var(--FluidUI-buttonhover);
+}
 .expandedFolderIconWrapper-3RwQpD:hover > svg > path:hover{
   fill:var(--FluidUI-buttonhover);
 }
@@ -90,7 +101,8 @@
 .noiseCancellationPopout-2-e5Xz,
 .childWrapper-1j_1ub:hover,
 .container-1NXEtd,
-.emptyCard-KDifrB {
+.emptyCard-KDifrB,
+.channel-k2TVLQ {
   background-color: var(--FluidUI-secondary);
 }
 .theme-dark .text-27cdrj, .theme-dark .title-2CL_z0{
@@ -99,7 +111,7 @@
 .popout-1KHNAq,
 .rowContainer-3t7486:hover,
 .selectorButtonSelected-3Z0WNU {
-  background-color: var(--FluidUI-backcolor1) !important;
+  background-color: var(--FluidUI-backcolor) !important;
 }
 .selectorButton-3sW6Qm:not(.selectorButtonPremiumRequired-2pGGEj):hover {
   background-color: #3b3b3b;
