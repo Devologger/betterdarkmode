@@ -1085,6 +1085,16 @@ button[aria-label="Send a gift"] {
 .selected-1-Z6gm .layout-1qmrhw {
   background-color: var(--FluidUI-sellected);
   border-left: 3px solid var(--FluidUI-unread);
+  -webkit-transition: all 0.1s 0s linear;
+-moz-transition: all 0.1s 0s linear;
+-o-transition: all 0.1s 0s linear;
+transition: all 0.1s 0s linear;
+}
+.layout-1qmrhw {
+  -webkit-transition: all 0.1s 0s linear;
+  -moz-transition: all 0.1s 0s linear;
+  -o-transition: all 0.1s 0s linear;
+  transition: all 0.1s 0s linear;
 }
 .clickable-28SzVr:hover .layout-1qmrhw{
   background-color: var(--FluidUI-hover);
@@ -1289,16 +1299,19 @@ div[class*="typeWindows-"]::after {
 .optionContainer-yOpaLq:hover{
 background-color: var(--FluidUI-hover) !important;
 }
-.users-2JoyGL{
-  background-color: var(--FluidUI-secondary);
+.users-2JoyGL, .notice-12Koq-, .channelNotice-tO6Tus, .theme-dark .elevationHigh-28Pty4, .theme-dark .autocompleteArrow-jJE9TQ, .theme-dark .header-3i_Csh{
+  background-color: var(--FluidUI-secondary) !important;
 }
-.total-1c5KCN{
+.total-1c5KCN, .guildSection-2Zyzy8{
   background-color: var(--FluidUI-backcolor);
 }
 .button-1EGGcP.buttonColor-3bP3fX.fauxDisabled-8w0hCZ, .button-1EGGcP .buttonColor-3bP3fX.fauxDisabled-8w0hCZ, .button-1EGGcP.buttonColor-3bP3fX:disabled, .button-1EGGcP .buttonColor-3bP3fX:disabled{
   background-color: var(--FluidUI-unread);
   color:#000;
 
+}
+.popoutContainer-2wbmiM{
+  background-color: var(--FluidUI-secondary);
 }
 .guildSeparator-a4uisj{
   background-color: var(--FluidUI-border);
@@ -1328,7 +1341,7 @@ background-color: var(--FluidUI-hover) !important;
   display: inline-block;
   margin-top: -7px;
 }
-.upsellContainer-2a5eMP,.upsellFooter-3M1V33, .header-Wl8ec-, .enableContainer-1J91Aq,.connection-107AGH, .connectionHeader-2rV1ze, .accountList-305sx3, .notice-1Qe0b_, .perks-2IIbWQ, .icon-mJhEWn,.container-18GwIk,.enableContainer-2MEsKV, .previewContainer-29oeA6, .role-2TIOKu, .wrapper-1HIH0j, .featureCard-3XHbjy, .checklistHeader-3liG7E, .checklistItem-1gWPPD, .theme-dark .card-WWLYDO{
+.upload-3GTSF9,.upsellContainer-2a5eMP,.upsellFooter-3M1V33, .header-Wl8ec-, .enableContainer-1J91Aq,.connection-107AGH, .connectionHeader-2rV1ze, .accountList-305sx3, .notice-1Qe0b_, .perks-2IIbWQ, .icon-mJhEWn,.container-18GwIk,.enableContainer-2MEsKV, .previewContainer-29oeA6, .role-2TIOKu, .wrapper-1HIH0j, .featureCard-3XHbjy, .checklistHeader-3liG7E, .checklistItem-1gWPPD, .theme-dark .card-WWLYDO{
   background-color: var(--FluidUI-secondary);
 }
 .container-2oNtJn:focus-within{
@@ -1393,8 +1406,95 @@ h3.pro-3GwLMX.fontDisplay-3Gtuks.base-21yXnu.size12-oc4dx4{
   background-color: var(--FluidUI-secondary)!important;
   border: 5px solid var(--FluidUI-secondary) !important;
 }
-.avatar-3QF_VA{
+.avatar-3QF_VA, .avatar-2Vndt_{
   background-color: var(--FluidUI-backcolor)!important;
   border: 5px solid var(--FluidUI-backcolor) !important;
 }
+.username-h_Y3Us, .clickable-28SzVr.container-1oeRFJ:active, .highlighted-3PcOfB.container-1oeRFJ, .selected-1-Z6gm.container-1oeRFJ, .modeConnected-NrO4cP .name-28HaxV, .modeConnected-NrO4cP:hover .name-28HaxV, .modeSelected-3DmyhH .name-28HaxV, .modeSelected-3DmyhH:hover .name-28HaxV, .modeUnread-3Cxepe .name-28HaxV, .modeUnread-3Cxepe:hover .name-28HaxV, .notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV, .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV{
+  color: var(--FluidUI-unread);
+  -webkit-transition: all 0.1s 0s linear;
+-moz-transition: all 0.1s 0s linear;
+-o-transition: all 0.1s 0s linear;
+transition: all 0.1s 0s linear;
+}
 
+.applicationName-19i3lP.clickable-31pE3P:hover, .commandName-1KhvGm.clickable-31pE3P:hover, .username-h_Y3Us.clickable-31pE3P:hover{
+  text-decoration: none;
+  color: var(--FluidUI-buttonhover);
+}
+.search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz{
+  color: #fff;
+}
+.searchBox-pyIJJj.searchBox-31Zv9h{
+  background-color: var(--FluidUI-textarea);
+}
+.search-25t1e9 .searchBox-31Zv9h .closeIcon-BMGxx0{
+  color:var(--FluidUI-unread);
+}
+.search-25t1e9 .searchBox-31Zv9h .closeIcon-BMGxx0:hover{
+  color:var(--FluidUI-buttonhover);
+}
+input.inputDefault-3FGxgL.input-2g-os5.searchBoxInput-P0mWHW.searchBoxInput-3h4etz::placeholder {
+  color:#fff;
+}
+.button-3_1yil:hover{
+  background-color: var(--FluidUI-buttonhover)!important;
+
+}
+.lookOutlined-3yKVGo.colorWhite-1H92hK{
+  background-color: var(--FluidUI-unread);
+  border-color: var(--FluidUI-unread);
+  color: #000;
+}
+.lookOutlined-3yKVGo.colorWhite-1H92hK:active{
+  background-color: var(--FluidUI-buttonhover)!important;
+}
+.theme-dark .tooltipGreen-oouJdx, .theme-light .tooltipGreen-oouJdx{
+  background-color: var(--FluidUI-unread);
+  color: #000;
+}
+.colorable-3rVGna.primaryDark-2UJt1G{
+  background-color: var(--FluidUI-unread);
+}
+.colorable-3rVGna.primaryDark-2UJt1G, .colorable-3rVGna.primaryDark-2UJt1G .centerIcon-JYpTUi{
+  color: #000;
+}
+.colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, .colorable-3rVGna.primaryDark-2UJt1G:hover{
+  background-color: var(--FluidUI-buttonhover);
+}
+.border-2Vy6FN.speaking-7QZEkv{
+    -webkit-box-shadow: inset 0 0 0 3px var(--FluidUI-unread);
+    box-shadow: inset 0 0 0 3px var(--FluidUI-unread);
+}
+.bd-search-wrapper{
+  background-color: #2d2d2d;
+  -webkit-transition: all 0.1s 0s linear;
+  -moz-transition: all 0.1s 0s linear;
+  -o-transition: all 0.1s 0s linear;
+  transition: all 0.1s 0s linear;
+}
+.bd-search-wrapper:focus-within{
+  background-color: #1f1f1f !important;
+  border-bottom: 1px solid #61ccff;
+  -webkit-transition: all 0.1s 0s linear;
+  -moz-transition: all 0.1s 0s linear;
+  -o-transition: all 0.1s 0s linear;
+  transition: all 0.1s 0s linear;
+}
+.bd-search-wrapper:hover{
+  background-color: #323232;
+}
+.bd-button, .bd-addon-views .bd-view-button.selected{
+  background-color: #61ccff;
+  color: #000;
+}
+.bd-button:hover{
+  background-color: #5abae8;
+  color: #000;
+}
+h2.bd-settings-title.h2-2gWE-o.title-3sZWYQ.size16-14cGz5.height20-mO2eIN.weightSemiBold-NJexzi.defaultColor-1_ajX0.defaultMarginh2-2LTaUL.marginBottom20-32qID7, .bd-settings-group.collapsible .bd-settings-title{
+  color: #fff;
+}
+.bd-settings-group.collapsible .bd-settings-title::before{
+  background-color: #818181;
+}
