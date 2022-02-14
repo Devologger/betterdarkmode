@@ -24,6 +24,7 @@
   --FluidUI-textareaborder: #9a9a9a;
   --FluidUI-buttonhover: #5abae8;
   --FluidUI-border: #3a3a3a;
+  --FluidUI-SearchBorder: #333333;
 }
 
 .callContainer-HtHELf, .theme-dark .reactionSelected-1aMb2K{
@@ -177,6 +178,9 @@ main.chatContent-3KubbW,
   background-color: var(--FluidUI-secondary);
   border-radius: 5px;
   border-bottom: 1px solid var(--FluidUI-scrollbar);
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
 }
 
 .form-3gdLxP .channelTextArea-1FufC0 {
@@ -222,7 +226,14 @@ main.chatContent-3KubbW,
   color: var(--FluidUI-text);
 }
 .mention-3XBnnZ {
-  background-color: var(--FluidUI-mention-button);
+  background-color: var(--FluidUI-unread);
+}
+
+span.text-2GsXbW{
+  color:#000;
+}
+.mention-3XBnnZ:active{
+  background-color: var(--FluidUI-unread);
 }
 .mentioned-Tre-dv {
   background-color: rgba(var(--FluidUI-text), 0.1) !important;
@@ -580,7 +591,7 @@ button[aria-label="Send a gift"] {
 .colorStandard-21JIj7 {
   color: #000;
 }
-.wrapper-1cBijl, .formFieldWrapper-2LV3S6, .settingsFormFieldWrapper-U99c9i {
+.wrapper-1cBijl, .formFieldWrapper-2LV3S6, .settingsFormFieldWrapper-U99c9i, .bd-emote-header {
   background-color: var(--FluidUI-secondary);
 }
 .addFriendInput-1Ta-rO::placeholder,
@@ -1165,21 +1176,43 @@ transition: all 0.1s 0s linear;
 .searchBar-zdmu7v{
   background-color: var(--FluidUI-sellected) ;
   border-bottom: 1px solid var(--FluidUI-textareaborder);
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
 }
 .focused-8aNhVB .searchBar-zdmu7v, .open-3y3yI_ .searchBar-zdmu7v{
   border-bottom: 1px solid var(--FluidUI-unread);
   background-color: var(--FluidUI-textarea) !important;
+  border-top: 1px solid var(--FluidUI-SearchBorder);
+  border-right: 1px solid var(--FluidUI-SearchBorder);
+  border-left: 1px solid var(--FluidUI-SearchBorder);
+  
 }
 .addGamePopout-3yePJc.elevationBorderHigh-3drnJX, .flexCenter-1Mwsxg.flex-3BkGQD.justifyCenter-rrurWZ.alignCenter-14kD11.activeGame-3ncS55.notDetected-2HEmAp, .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover{
   background-color: var(--FluidUI-hover);
+  
+}
+.upsellContainer-3qKRln{
+  background-color: var(--FluidUI-secondary) !important;
+}
+.searchBar-3TnChZ .searchBarComponent-3N7dCG{
+  border-bottom: 1px solid var(--FluidUI-textareaborder);
+  border-radius: 4px;
 }
 .input-2FSSDe{
   background-color: var(--FluidUI-secondary);
   border-bottom: 1px solid var(--FluidUI-textareaborder);
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
 }
 .input-2FSSDe:focus{
   background-color: var(--FluidUI-textarea) !important;
   border-bottom: 1px solid var(--FluidUI-unread);
+  background-color: var(--FluidUI-textarea) !important;
+  border-top: 1px solid var(--FluidUI-SearchBorder);
+  border-right: 1px solid var(--FluidUI-SearchBorder);
+  border-left: 1px solid var(--FluidUI-SearchBorder);
 }
 .input-2FSSDe:hover{
   background-color: var(--FluidUI-hover) ;
@@ -1193,20 +1226,19 @@ transition: all 0.1s 0s linear;
 }
 .container-2oNtJn{
   background-color: var(--FluidUI-sellected);
-  border-bottom: 1px solid var(--FluidUI-textareaborder);
-}
-
-.container-2oNtJn{
 
   border-bottom: 1px solid var(--FluidUI-textareaborder);
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
 }
+
 .actionButton-3-B2x-.highlight-3DSi7b, .unicodeShortcut-3N8oDe{
   background-color: var(--FluidUI-backcolor);
 }
-
-
 .container-2oNtJn:hover{
   background-color: var(--FluidUI-hover);
+  
 }
 div[class*="typeWindows-"] {
   height: 26px;
@@ -1243,6 +1275,9 @@ div[class*="typeWindows-"]::after {
 .form-3gdLxP:focus-within .channelTextArea-1FufC0 .scrollableContainer-15eg7h {
   border-color: var(--FluidUI-buttonhover);
   background-color: var(--FluidUI-textarea) !important;
+  border-top-color: var(--FluidUI-SearchBorder);
+  border-right-color:  var(--FluidUI-SearchBorder);
+  border-left-color: var(--FluidUI-SearchBorder);
 }
 .form-3gdLxP:hover .channelTextArea-1FufC0 .scrollableContainer-15eg7h {
   background-color: var(--FluidUI-hover);
@@ -1345,8 +1380,13 @@ background-color: var(--FluidUI-hover) !important;
   background-color: var(--FluidUI-secondary);
 }
 .container-2oNtJn:focus-within{
-  border-color: var(--FluidUI-unread) !important;
+
   background-color: var(--FluidUI-textarea)!important;
+  border-bottom: 1px solid var(--FluidUI-unread);
+  background-color: var(--FluidUI-textarea) !important;
+  border-top: 1px solid var(--FluidUI-SearchBorder);
+  border-right: 1px solid var(--FluidUI-SearchBorder);
+  border-left: 1px solid var(--FluidUI-SearchBorder);
 }
 input.input-2m5SfJ:focus{
   background-color: var(--FluidUI-textarea)!important;
@@ -1354,10 +1394,7 @@ input.input-2m5SfJ:focus{
 .icon-3CDcPB, .theme-dark .tierBody-1d3UiS, .medium-2NClDM.iconLayout-3Bjizv, .noItemsCard-2V85P5, .noItemsCard-5EOcCl, .theme-dark .codeRedemptionRedirect-3SBiCp, .previewMessage-2uxBrA{
   background-color: transparent;
 }
-.container-2oNtJn:hover{
-  border-color: var(--FluidUI-textareaborder);
 
-}
 .theme-dark .progress-1S-TDF{
   background-color: #fff;
 }
