@@ -705,16 +705,50 @@ button[aria-label="Send a gift"] {
 .guildName-1sOa9v {
   color: var(--FluidUI-text);
 }
-.search-25t1e9 .searchBox-31Zv9h .searchIcon-3X4BYL,
-.searchTitle-1qceKb {
-  color: var(--FluidUI-backcolor);
+
+
+
+
+.search-39IXmY .search-2Mwzzq .searchBar-jGtisZ:hover{
+
+  background-color: var(--FluidUI-hover);
 }
-.searchBox-pyIJJj.searchBox-31Zv9h {
-  background-color: var(--FluidUI-text);
+.search-39IXmY .search-2Mwzzq .searchBar-jGtisZ:focus{
+  border-color:  var(--FluidUI-unread)!important;
+  background: var(--FluidUI-textarea)!important;
+}
+.search-39IXmY .search-2Mwzzq .searchBar-jGtisZ{
+  background-color: var(--FluidUI-sellected) ;
+  border-bottom: 1px solid var(--FluidUI-textareaborder);
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+.search-39IXmY .search-2Mwzzq .searchBar-jGtisZ:focus-within{
+  border-bottom: 1px solid var(--FluidUI-unread) ;
+  background-color: var(--FluidUI-textarea) !important;
+  border-top: 1px solid var(--FluidUI-SearchBorder);
+  border-right: 1px solid var(--FluidUI-SearchBorder);
+  border-left: 1px solid var(--FluidUI-SearchBorder);
+  
 }
 
-.search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz::placeholder {
-  color: var(--FluidUI-backcolor);
+.theme-dark .option-ayUoaq:hover{
+  background-color: var(--FluidUI-hoveronselection);
+}
+.theme-dark .container-2McqkF{
+  background-color: var(--FluidUI-backcolor);
+}
+.theme-dark .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk{
+  background-color: transparent;
+}
+.theme-dark .option-ayUoaq:after
+{
+  background: var(--FluidUI-backcolor);
+}
+.theme-dark .dim-2Uxgxb span{
+  background-color: var(--FluidUI-unread);
+  color:#000;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
   background-color: var(--FluidUI-links);
