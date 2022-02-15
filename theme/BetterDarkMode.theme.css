@@ -1,7 +1,7 @@
 /**
   * @name BetterDarkMode
   * @author LeBronzPlayz#6413
-  * @version 2.1.3
+  * @version 3.0.0
   * @description Windows 11 inspired flat ui - Dark mode Theme
   * @authorId 311846416836329472
   * @source https://github.com/Devologger/BetterDarkMode-Discord-Theme
@@ -636,9 +636,7 @@ button[aria-label="Send a gift"] {
 .quickswitcher-pKcM9U  {
   background-color: var(--FluidUI-backcolor);
 }
-.input-3r5zZY, .wrapper-2SplAX, .perksTable-2Hjc0m, .planCard-3heGy1, .notice-1x8lm- {
-  background-color: var(--FluidUI-secondary);
-}
+
 .header-1ZpMzy,
 .match-20K5f5 {
   color: var(--FluidUI-text);
@@ -1200,12 +1198,26 @@ transition: all 0.1s 0s linear;
   border-bottom: 1px solid var(--FluidUI-textareaborder);
 }
 .input-2g-os5:hover{
-  border-color:  var(--FluidUI-textareaborder) !important;
   background-color: var(--FluidUI-hover);
+  border-bottom: 1px solid var(--FluidUI-textareaborder);
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
 }
 .input-2g-os5:focus{
-  border-color:  var(--FluidUI-unread)!important;
-  background: var(--FluidUI-textarea)!important;
+  
+  border-bottom: 1px solid var(--FluidUI-unread);
+  background-color: var(--FluidUI-textarea) !important;
+  border-top: 1px solid var(--FluidUI-SearchBorder);
+  border-right: 1px solid var(--FluidUI-SearchBorder);
+  border-left: 1px solid var(--FluidUI-SearchBorder);
+}
+.input-2g-os5{
+  background-color: var(--FluidUI-sellected) ;
+  border-bottom: 1px solid var(--FluidUI-textareaborder);
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
 }
 .searchBar-zdmu7v{
   background-color: var(--FluidUI-sellected) ;
@@ -1222,9 +1234,123 @@ transition: all 0.1s 0s linear;
   border-left: 1px solid var(--FluidUI-SearchBorder);
   
 }
+.bioTextArea-dDGOeC.scrollableContainer-15eg7h.webkit-QgSAqd{
+  background-color: var(--FluidUI-sellected) ;
+  border-bottom: 1px solid var(--FluidUI-textareaborder);
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+.bioTextArea-dDGOeC.scrollableContainer-15eg7h.webkit-QgSAqd:focus-within{
+  border-bottom: 1px solid var(--FluidUI-unread) !important;
+  background-color: var(--FluidUI-textarea) !important;
+  border-top: 1px solid var(--FluidUI-SearchBorder) !important;
+  border-right: 1px solid var(--FluidUI-SearchBorder)!important;
+  border-left: 1px solid var(--FluidUI-SearchBorder)!important;
+}
+.bioTextArea-dDGOeC.scrollableContainer-15eg7h.webkit-QgSAqd:hover{
+background-color: var(--FluidUI-hover);
+border-bottom: 1px solid var(--FluidUI-textareaborder);
+border-top: 1px solid transparent;
+border-right: 1px solid transparent;
+border-left: 1px solid transparent;
+}
+.betaTag-3pnIxA.textBadge-1fdDPJ.base-3IDx3L.baseShapeRound-3epLEv{
+  background-color: var(--FluidUI-unread) !important;
+  color: #000;
+}
+.questionMark-3V9mGJ{
+  background-color: var(--FluidUI-unread);
+}
+.questionMark-3V9mGJ:hover{
+  background-color: var(--FluidUI-buttonhover);
+}
+.lookFilled-yCfaCM.colorBrandNew-2-gGsS, .theme-dark .tooltipBrand-20XsMA, .theme-light .tooltipBrand-20XsMA{
+  background-color: var(--FluidUI-unread);
+  color: #000;
+}
+.lookFilled-yCfaCM.colorBrandNew-2-gGsS:hover{
+  background-color: var(--FluidUI-buttonhover);
+  color: #000;
+}
+
+.questionMark-3V9mGJ .icon-3JHfo7, .phoneField-3NAPDv .plusSign-1BkjXr, .phoneField-3NAPDv .countryCode-2RFA3i{
+  color: #000;
+}
+.phoneField-3NAPDv .phoneFieldExpand-1CqrEb{
+  stroke: #000;
+}
+.input-2g-os5.disabled-1MTS26, .inputWrapper-1YNMmM.multiInputLast-35zVz0{
+  background: transparent !important;
+  border-color: transparent !important;
+  
+}
+.theme-dark .popoutList-10IFAa{
+  background-color: var(--FluidUI-backcolor);
+}
+.featureIcon-2sTnDK{
+  background-color: var(--FluidUI-secondary);
+}
+.featureIcon-2sTnDK > svg > path{
+  fill: var(--FluidUI-buttonhover);
+}
+.bd-controls>.bd-addon-button svg, .bd-addon-views .bd-view-button.selected svg{
+  
+  fill: #000;
+}
+.bd-controls>.bd-addon-button:hover{
+  background-color: var(--FluidUI-buttonhover);
+}
+.bd-controls>.bd-addon-button{
+  background-color: var(--FluidUI-unread);
+}
+.bd-select .bd-select-option.selected{
+  background-color: var(--FluidUI-sellected);
+}
+
+.bd-select-option{
+  background-color: var(--FluidUI-hoveronselection);
+}
+.bd-select .bd-select-option:hover{
+  background-color: var(--FluidUI-hover); 
+}
+.input-3r5zZY{
+  background-color: var(--FluidUI-sellected) ;
+  border-bottom: 1px solid var(--FluidUI-textareaborder);
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+
+.input-3r5zZY:hover{
+  background-color: var(--FluidUI-hover);
+  border-bottom: 1px solid var(--FluidUI-textareaborder);
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+.input-3r5zZY:focus{
+  border-bottom: 1px solid var(--FluidUI-unread);
+  background-color: var(--FluidUI-textarea) !important;
+  border-top: 1px solid var(--FluidUI-SearchBorder);
+  border-right: 1px solid var(--FluidUI-SearchBorder);
+  border-left: 1px solid var(--FluidUI-SearchBorder);
+}
+.scroller-2qwVWY, .auto-2K3UW5::-webkit-scrollbar-track{
+  background-color: var(--FluidUI-backcolor) !important;
+}
+.wrapper-2SplAX, .perksTable-2Hjc0m, .planCard-3heGy1, .notice-1x8lm- {
+  background-color: var(--FluidUI-secondary);
+}
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_){
+  background-color: var(--FluidUI-hoveronselection);
+}
 .addGamePopout-3yePJc.elevationBorderHigh-3drnJX, .flexCenter-1Mwsxg.flex-3BkGQD.justifyCenter-rrurWZ.alignCenter-14kD11.activeGame-3ncS55.notDetected-2HEmAp, .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover{
   background-color: var(--FluidUI-hover);
   
+}
+.messageContainer-3VTXBC, .theme-dark .tab-2j5AEF.selected-2LAck8, .theme-dark .tierHeaderLocked-30MLlO{
+  border-top: 1px solid var(--FluidUI-SearchBorder);
 }
 .upsellContainer-3qKRln{
   background-color: var(--FluidUI-secondary) !important;
@@ -1374,10 +1500,18 @@ background-color: var(--FluidUI-hover) !important;
 .total-1c5KCN, .guildSection-2Zyzy8{
   background-color: var(--FluidUI-backcolor);
 }
-.button-1EGGcP.buttonColor-3bP3fX.fauxDisabled-8w0hCZ, .button-1EGGcP .buttonColor-3bP3fX.fauxDisabled-8w0hCZ, .button-1EGGcP.buttonColor-3bP3fX:disabled, .button-1EGGcP .buttonColor-3bP3fX:disabled{
+.jumpButton-1V_1FA, .button-1EGGcP.buttonColor-3bP3fX.fauxDisabled-8w0hCZ, .button-1EGGcP .buttonColor-3bP3fX.fauxDisabled-8w0hCZ, .button-1EGGcP.buttonColor-3bP3fX:disabled, .button-1EGGcP .buttonColor-3bP3fX:disabled{
   background-color: var(--FluidUI-unread);
   color:#000;
-
+}
+.jumpButton-1V_1FA .text-2ifC_x{
+  color:#000;
+}
+.jumpButton-1V_1FA:hover{
+  background-color: var(--FluidUI-buttonhover);
+}
+.jumpButton-1V_1FA .text-2ifC_x:hover{
+  color:#000;
 }
 .popoutContainer-2wbmiM{
   background-color: var(--FluidUI-secondary);
