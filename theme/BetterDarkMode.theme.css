@@ -613,16 +613,16 @@ button[aria-label="Send a gift"] {
 }
 #bd-pub-button,
 .button-Jt-tIg {
-  background-color: var(--FluidUI-text);
-  color: var(--FluidUI-backcolor);
+  background-color: var(--FluidUI-unread);
+  color: #000;
   font-weight: 700;
 }
 #bd-pub-button:hover,
 .iconBadge-3qSJIw,
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
 .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-  background-color: var(--FluidUI-secondary);
-  color: var(--FluidUI-backcolor);
+  background-color: var(--FluidUI-buttonhover);
+  color: #000;
 }
 #bd-pub-button:hover {
   font-weight: 700;
@@ -1282,14 +1282,15 @@ background-color: var(--FluidUI-sellected);
   border-right: 1px solid transparent;
   border-left: 1px solid transparent;
 }
-.inputWrapper-1YNMmM:hover{
+.inputWrapper-1YNMmM:hover,  .theme-dark .gameNameInput-2wbDJ9:hover{
   background-color: var(--FluidUI-hover);
   border-bottom: 1px solid var(--FluidUI-textareaborder);
   border-top: 1px solid transparent;
   border-right: 1px solid transparent;
   border-left: 1px solid transparent;
 }
-.inputWrapper-1YNMmM:focus-within{
+.inputWrapper-1YNMmM:focus-within, .theme-dark .gameNameInput-2wbDJ9:focus{
+  
   
   border-bottom: 1px solid var(--FluidUI-unread);
   background-color: var(--FluidUI-textarea) !important;
@@ -1379,21 +1380,21 @@ background-color: var(--FluidUI-sellected);
 .theme-dark .friendSelected-3cwmD7{
   background-color: var(--FluidUI-sellected);
 }
-.searchBox-pyIJJj.searchBox-31Zv9h, .note-Go5ZP2, .cardInput-33x7OF{
+.searchBox-pyIJJj.searchBox-31Zv9h, .note-Go5ZP2, .cardInput-33x7OF, .theme-dark .copyInputDefault-3jiMHw, .rulesTextAreaInput-asSkdy, .lookFilled-1GseHa.select-1Ia3hD{
   background-color: var(--FluidUI-sellected) ;
   border-bottom: 1px solid var(--FluidUI-textareaborder) ;
   border-top: 1px solid transparent;
   border-right: 1px solid transparent;
   border-left: 1px solid transparent;
 }
-.searchBox-pyIJJj.searchBox-31Zv9h:hover, .note-Go5ZP2:hover, .cardInput-33x7OF:hover{
+.searchBox-pyIJJj.searchBox-31Zv9h:hover, .note-Go5ZP2:hover, .cardInput-33x7OF:hover, .theme-dark .copyInputDefault-3jiMHw:hover, .rulesTextAreaInput-asSkdy:hover, .lookFilled-1GseHa.select-1Ia3hD:hover{
   background-color: var(--FluidUI-hover);
   border-bottom: 1px solid var(--FluidUI-textareaborder) ;
   border-top: 1px solid transparent;
   border-right: 1px solid transparent;
   border-left: 1px solid transparent;
 }
-.searchBox-pyIJJj.searchBox-31Zv9h:focus-within, .note-Go5ZP2:focus-within{
+.searchBox-pyIJJj.searchBox-31Zv9h:focus-within, .note-Go5ZP2:focus-within, .rulesTextAreaInput-asSkdy:focus-within, .lookFilled-1GseHa.select-1Ia3hD:focus-within{
   border-bottom: 1px solid var(--FluidUI-unread);
   background-color: var(--FluidUI-textarea) ;
   border-top: 1px solid var(--FluidUI-SearchBorder);
@@ -1411,6 +1412,7 @@ background-color: var(--FluidUI-sellected);
   border-right: 1px solid var(--FluidUI-SearchBorder) !important;
   border-left: 1px solid var(--FluidUI-SearchBorder) !important;
 }
+
 /*
 
 .input-2g-os5{
@@ -2017,7 +2019,7 @@ h2.bd-settings-title.h2-2gWE-o.title-3sZWYQ.size16-14cGz5.height20-mO2eIN.weight
   color: #000 !important;
 }
 
-.backgroundOptionInner-SSz19O,.cameraWrapper-3a7Ngv,.previewMessage-2g_aBv,.preview-QJ3OG3,.theme-dark .codeRedemptionRedirect-2hYMSQ,.theme-dark .emptyHintCard-2A7Tng, .upload-vLbqu-, .attachedBars-2BCP3l, .container-1wv6C6, .accountList-Wii_T5, .accountBtn-3pgcgr .accountBtnInner-3ttD-i, .connection-YOVI9j, .connectionHeader-Ixbb1s, .cardWrapper-1bSePP{
+.exampleRule-3gJ39X,.backgroundOptionInner-SSz19O,.cameraWrapper-3a7Ngv,.previewMessage-2g_aBv,.preview-QJ3OG3,.theme-dark .codeRedemptionRedirect-2hYMSQ,.theme-dark .emptyHintCard-2A7Tng, .upload-vLbqu-, .attachedBars-2BCP3l, .container-1wv6C6, .accountList-Wii_T5, .accountBtn-3pgcgr .accountBtnInner-3ttD-i, .connection-YOVI9j, .connectionHeader-Ixbb1s, .cardWrapper-1bSePP{
   background-color: var(--FluidUI-secondary);
 }
 .active-WHsd77, .lookOutlined-3yKVGo.colorBrand-I6CyqQ{
@@ -2041,6 +2043,33 @@ h2.bd-settings-title.h2-2gWE-o.title-3sZWYQ.size16-14cGz5.height20-mO2eIN.weight
 .theme-dark .noItemsIcon-2OeOld, .theme-dark .noItemsIcon-1rZlXZ{
   background: var(--FluidUI-secondary);
 }
-.listRow-2nO1T6:hover{
+.listRow-2nO1T6:hover,.theme-dark .default-1Tkeeg{
   background-color: var(--FluidUI-secondary);
+}
+.emojiRow-1aPaM- .emojiAliasInput-3ZhdKx .emojiInput-B8MGXq{
+  opacity: 100% !important;
+}
+.theme-dark .bd-server-card,.body-2WIpo7,.theme-dark .previewContainer-35LFgt,.theme-dark .notDetected-M3Ghh2, .theme-light .notDetected-M3Ghh2, .liveQualityIndicator-2GyS_e.qualityIndicatorBadge-2Am2OE.textBadge-1fdDPJ.base-3IDx3L.baseShapeRoundLeft-heLrHp{
+  background-color: var(--FluidUI-secondary) !important;
+}
+.theme-dark .addGamePopout-2SKNIV{
+  background-color: var(--FluidUI-backcolor);
+}
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx, .theme-dark .path3-3tVOpU{
+  color:#000;
+}
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:disabled{
+  background-color: var(--FluidUI-unread);
+}
+.loadingPopout-1feYe_{
+  background-color: var(--FluidUI-secondary);
+  border-radius: 9px;
+}
+.theme-dark .path-lhsLSV, .theme-dark .path2-F-M5gP, .theme-dark .path-lhsLSV, .theme-dark .path2-F-M5gP{
+ stroke: var(--FluidUI-unread) !important;
+}
+
+.bannerVisible-Vkyg1I .header-3OsQeK{
+  filter:none;
+  box-shadow: 0 1px 0 #3a3a3a, 0 1.5px 0 #3a3a3a, 0 2px 0 #3a3a3a;
 }
