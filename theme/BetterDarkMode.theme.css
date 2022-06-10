@@ -662,6 +662,7 @@ button[aria-label="Send a gift"] {
 }
 .container-x8Y1ix {
   background-color: var(--FluidUI-secondary);
+  border-color: transparent;
 }
 .container-x8Y1ix:hover,
 .theme-light .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
@@ -679,7 +680,7 @@ button[aria-label="Send a gift"] {
   background-color: var(--FluidUI-hover) !important;
 }
 .subtitle-3m-md1 {
-  color: var(--FluidUI-links);
+  color: var(--FluidUI-links) !important;
 }
 .footerTitle-3Bslxi,
 .formTitle-2YQyhj,
@@ -1110,13 +1111,6 @@ button[aria-label="Send a gift"] {
 .icon-3CDcPB.visible-CwPfRb {
   color: #acacac;
 }
-.actionButton-3-B2x-, .actionIcon-2sw4Sl, .iconItem-1EjiK0:hover .actionIcon-2sw4Sl  {
-  color: var(--FluidUI-text);
-}
-.actionButton-3-B2x-:hover {
-  color: var(--FluidUI-backcolor);
-  background-color: var(--FluidUI-sellected) !important;
-}
 
 .selected-1-Z6gm .layout-1qmrhw {
   background-color: var(--FluidUI-sellected);
@@ -1141,23 +1135,8 @@ background-color: var(--FluidUI-sellected);
 
 }
 
-.selected-3veCBZ::before{
 
 
-
-}
-.selected-3veCBZ::before {
-
-  content: '';
-  height: 16px;
-  width: 3px;
-  position: absolute;
-
-
-  background-color: var(--FluidUI-unread);
-
-  
-}
 
 .avatar-3QF_VA:hover, .avatar-2Vndt_:hover{
 
@@ -1655,9 +1634,6 @@ border-left: 1px solid transparent;
   border-left: 1px solid transparent;
 }
 
-.actionButton-3-B2x-.highlight-3DSi7b, .unicodeShortcut-3N8oDe{
-  background-color: var(--FluidUI-backcolor);
-}
 .container-2oNtJn:hover{
   background-color: var(--FluidUI-hover);
   
@@ -2122,7 +2098,7 @@ h2.bd-settings-title.h2-2gWE-o.title-3sZWYQ.size16-14cGz5.height20-mO2eIN.weight
 .theme-dark .noItemsIcon-2OeOld, .theme-dark .noItemsIcon-1rZlXZ{
   background: var(--FluidUI-secondary);
 }
-.listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42,.listRow-2nO1T6:hover,.theme-dark .default-1Tkeeg, .hljs, .footer-GXWBBp, .textContainer-36wgKK{
+.listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42,.listRow-2nO1T6:hover,.theme-dark .default-1Tkeeg, .hljs, .footer-GXWBBp, .textContainer-36wgKK, .cardHeader-3d6H8N, .item-14XeNr{
   background-color: var(--FluidUI-secondary);
 }
 .emojiRow-1aPaM- .emojiAliasInput-3ZhdKx .emojiInput-B8MGXq{
@@ -2164,4 +2140,146 @@ h2.bd-settings-title.h2-2gWE-o.title-3sZWYQ.size16-14cGz5.height20-mO2eIN.weight
 }
 .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42{
   background-color: var(--FluidUI-hover) !important;
+}
+.peopleListItem-u6dGxF{
+  background-color: #2b2b2b !important;
+  display: flex;
+  box-shadow: none;
+  border-radius: 4px;
+  border-color: transparent;
+  margin: 5px 15px 0 20px;
+  padding: 16px 10px;
+}
+.peopleListItem-u6dGxF.active-2UF8Zh, .peopleListItem-u6dGxF:hover{
+  background: var(--FluidUI-hover) !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 4px;
+  border-color: transparent;
+  margin: 5px 15px 0 20px;
+  padding: 16px 10px;
+}
+.text-3j8t_e{
+  padding-left: 10px;
+}
+.actionButton-3-B2x-, .members-3WRCEx, .members-3WRCEx > div, .container-2c4_8A, .submitContainer-1DHMA0, .button-cfOvv-{
+  background-color: transparent ;
+}
+.actionButton-3-B2x-, .actionIcon-2sw4Sl, .iconItem-1EjiK0:hover .actionIcon-2sw4Sl  {
+  color: var(--FluidUI-text);
+}
+.actionButton-3-B2x-:hover {
+  background-color: var(--FluidUI-hover) ;
+ 
+}
+
+.actionButton-3-B2x-.highlight-3DSi7b, .unicodeShortcut-3N8oDe{
+  background-color: transparent;
+}
+.allow-q9kwjz.selected-I4nkOo, .deny-2VqAyZ.selected-I4nkOo{
+  background-color: var(--FluidUI-unread) !important;
+  color: #000 !important;
+}
+.deny-2VqAyZ{
+  color: white;
+}
+.item-14XeNr:hover[aria-label="Deny"]{
+  background-color: var(--FluidUI-hover) ;
+}
+.item-14XeNr:hover, .deny-2VqAyZ.selected-I4nkOo:hover[aria-label="Deny"]{
+  background-color: var(--FluidUI-buttonhover) ;
+}
+.allow-q9kwjz:hover[aria-label="Allow"]{
+  background-color: var(--FluidUI-hover);
+  color:white;
+}
+.allow-q9kwjz[aria-label="Allow"]{
+  background-color: var(--FluidUI-hover);
+  color:white;
+}
+.check-3Fp8pO, .colorStatusGreen-1FE7JR{
+  color: var(--FluidUI-unread);
+}
+.cross-vHLzBr{
+  color: var(--FluidUI-text);
+}
+img.infoItem-Q4HWUe{
+ display:none;
+}
+.descriptionIcon-3nDZrK > circle {
+  fill: black !important;
+  
+}
+.descriptionIcon-3nDZrK > g > path {
+  fill: var(--FluidUI-unread) !important;
+  
+}
+.descriptionIcon-3nDZrK  > path{
+  fill: var(--FluidUI-unread) !important;
+  
+}
+.lookOutlined-3yKVGo.colorPrimary-2AuQVo, .activeCircle-1Rb2oP{
+  background-color: var(--FluidUI-unread);
+  color: black;
+}
+.lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover,.lookOutlined-3yKVGo.colorPrimary-2AuQVo:active{
+  background-color: var(--FluidUI-buttonhover);
+  color:#000;
+}
+.textBadge-1fdDPJ{
+  background-color: var(--FluidUI-unread) !important;
+  color: #000 !important;
+}
+.cardPrimaryOutline-1ofwVz{
+  border-color: transparent;
+  background-color: var(--FluidUI-secondary);
+}
+.cardPrimaryOutline-1ofwVz:hover{
+
+  background-color: var(--FluidUI-hover);
+}
+
+.backgroundOptionRing-1vvQ0C{
+  border: 2px solid var(--FluidUI-unread, 1);
+}
+.radioBar-3w9XY- > div > svg > path , .gameVerifiedIcon-1YMUdQ > svg > path{
+  fill: var(--FluidUI-unread);
+}
+.radioBar-3w9XY- > div > svg > circle {
+  fill: var(--FluidUI-text);
+
+}
+.info-1hMolH{
+  background-color: var(--FluidUI-secondary);
+  border-color: transparent;
+}
+.info-1hMolH .icon-2fP4ae{
+  color: var(--FluidUI-unread);
+}
+.selected-3veCBZ::before {
+
+  content: '';
+  height: 16px;
+  width: 3px;
+  position: absolute;
+
+
+  background-color: var(--FluidUI-unread);
+
+  
+}
+.optionHeader-27AHfD{
+  color: var(--FluidUI-links) !important;
+}
+.theme-dark .perksModal-CLcR1c, .theme-dark .tierHeaderLocked-3ItHYn{
+  background-color: var(--FluidUI-backcolor);
+}
+.theme-dark .barBackground-unEPDT,.theme-dark .ctaBar-Nhk8yY, .theme-dark .perk-19D_HN, .theme-dark .tierBody-3ju-rc, .theme-dark .tierMarkerBackground-G8FoN4{
+  background-color: var(--FluidUI-secondary);
+}
+.giftActionContent-2WmPpd > svg > path {
+  fill: #000;
+}
+.submitContainer-1DHMA0{
+  background-color: var(--FluidUI-backcolor);
 }
